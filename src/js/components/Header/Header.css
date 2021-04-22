@@ -1,0 +1,13 @@
+
+.divHeader {
+
+}
+.spanHeader{
+    color: rgb(82, 82, 82);
+    font-family: 'San Francisco';
+    font-weight: 100;
+    font-size: 20pt;
+}
+.hrHeader {
+    color: rgb(0, 0, 0);
+}

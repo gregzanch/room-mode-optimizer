@@ -1,0 +1,7 @@
+	.bar {
+	    fill: rgba(7, 94, 223, 0.5);
+	}
+
+	.bar:hover {
+	    fill: rgba(7, 94, 223, 0.9);
+	}

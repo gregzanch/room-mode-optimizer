@@ -1,0 +1,38 @@
+.tableResultTable {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+
+.tdResultTable,
+.thResultTable {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 2px 8px 2px 8px;
+}
+.tdResultTableNumber{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 2px 2px 2px 2px;
+    width: 10px;
+}
+.trResultTable{
+        background-color: #eeeeee;
+       height: 12px;
+}
+.trResultTableBody:nth-child(even) {
+    background-color: rgba(248,248,248,1);
+}
+.trResultTableBody:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 1);
+}
+.trResultTableBody:hover{
+    background-color: rgba(224, 228, 252,.25);
+}
+
+.trResultTableBody-selected{
+    background-color: rgb(224, 228, 252, .5);
+     height: 12px;
+}
+.trResultTableBody-selected:hover {
+    background-color: rgba(224, 228, 252);
+}

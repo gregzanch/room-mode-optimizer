@@ -1,0 +1,42 @@
+td.ParameterRow {
+
+}
+.ParameterRowLabel{
+    text-align: right;
+}
+.inputParameterInputdouble{
+    text-align: center;
+    position: relative;
+    width: 75%;
+    margin-left: 10%;
+}
+.inputParameterInputsingle {
+    text-align: center;
+    position: relative;
+    width: 75%;
+    margin-left: 10%;
+}
+
+.tableParameterTable{
+    width: 30vw;
+    /* border: solid 1px rgba(100,100,100,0.5); */
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.min-max-label-row{
+    line-height: 10px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 10pt;
+ 
+
+}
+input[type=number] {
+    text-align: center;
+}
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  
+    display: none;
+    /* transform: translateX(20%); */
+}

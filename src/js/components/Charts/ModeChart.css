@@ -1,0 +1,53 @@
+/* 13. Basic Styling with CSS */
+
+/* Style the lines by removing the fill and applying a stroke */
+
+.line1 {
+    stroke: rgba(255, 171, 2,0.5);
+    stroke-width: 4;
+}
+.line1:hover{
+    stroke: rgba(255, 171, 2, 0.9);
+}
+
+.line2 {
+    stroke: rgba(59, 202, 15, 0.5);
+    stroke-width: 4;
+}
+.line2:hover{
+    stroke: rgba(59,202,15,0.9);
+}
+.line3 {
+    stroke: rgba(7,94,223,0.5);
+    stroke-width: 4; 
+}
+.line3:hover {
+    stroke: rgba(7, 94, 223, 0.9);
+}
+.line{
+    fill: none;
+}
+
+
+.fakeclip{
+    fill: rgb(255, 255, 255);
+}
+.overlay {
+    fill: none;
+    pointer-events: all;
+}
+
+/* Style the dots by assigning a fill and stroke */
+.dot {
+    fill: #ffab00;
+    stroke: #fff;
+}
+
+.focus circle {
+    fill: none;
+    stroke: steelblue;
+}
+.view{
+    fill: rgba(255,255,255,0);
+   
+}
