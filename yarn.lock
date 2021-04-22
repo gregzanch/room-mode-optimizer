@@ -2885,14 +2885,13 @@ function-bind@^1.1.1:
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
   integrity sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
 
-functional-acoustics@^1.0.6:
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/functional-acoustics/-/functional-acoustics-1.2.6.tgz#769a8ba83088ad988336080ac75218e2c279e894"
-  integrity sha512-04FoQ6iqVbu8uJ931q04uLKl3o+VTsnLndxpw3aeM6Snd3iyCVdtJT8iH6jM+ozmAKKOhLzBUAga+5ulxp01iQ==
+functional-acoustics@1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/functional-acoustics/-/functional-acoustics-1.0.6.tgz#c1ecab96f4b38b07bf574d1c23dac33865abf8a2"
+  integrity sha512-H2or9j2tAEDcW8yxXE+/dU2G3Yu61H4YvXCaWWueV2I8wsm98n5gvru2NzYD0kVJKQzfQM9nLEompY/OKS7IbQ==
   dependencies:
-    lodash.foreach "^4.5.0"
-    lodash.keys "^4.2.0"
-    mathjs "^5.9.0"
+    fast-sort "^1.5.6"
+    mathjs "^5.6.0"
 
 gensync@^1.0.0-beta.2:
   version "1.0.0-beta.2"
@@ -3712,16 +3711,6 @@ lodash.debounce@^4.0.8:
   resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
   integrity sha1-gteb/zCmfEAF/9XiUVMArZyk168=
 
-lodash.foreach@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/lodash.foreach/-/lodash.foreach-4.5.0.tgz#1a6a35eace401280c7f06dddec35165ab27e3e53"
-  integrity sha1-Gmo16s5AEoDH8G3d7DUWWrJ+PlM=
-
-lodash.keys@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/lodash.keys/-/lodash.keys-4.2.0.tgz#a08602ac12e4fb83f91fc1fb7a360a4d9ba35205"
-  integrity sha1-oIYCrBLk+4P5H8H7ejYKTZujUgU=
-
 lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.20, lodash@^4.17.3:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
@@ -3778,7 +3767,7 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-mathjs@^5.9.0:
+mathjs@^5.6.0:
   version "5.10.3"
   resolved "https://registry.yarnpkg.com/mathjs/-/mathjs-5.10.3.tgz#e998885f932ea8886db8b40f7f5b199f89b427f1"
   integrity sha512-ySjg30BC3dYjQm73ILZtwcWzFJde0VU6otkXW/57IjjuYRa3Qaf0Kb8pydEuBZYtqW2OxreAtsricrAmOj3jIw==
